@@ -8,6 +8,8 @@ int index_of_nl(char* arr, int arr_size)
 	for (id; id < arr_size && arr[id]!='\n';++id);
 	return (id<arr_size?id:-1);
 }
+
+void 
 int main()
 {
 	FILE * inf=fopen("test.csv","r");
